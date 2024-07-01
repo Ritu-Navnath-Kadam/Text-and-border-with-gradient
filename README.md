@@ -9,8 +9,8 @@
 </head>
 <body>
   <h1>Low aim is crime</h1>
-  <div class="box with-conic-gradient">
-  Border with conic gradient
+  <div class="box with-linear-gradient">
+  Border with linear gradient
 </div>
 </body>
 </html>
@@ -34,10 +34,10 @@ h1
   display:flex;
   
 }
-.with-conic-gradient {
+.with-linear-gradient {
   border-style: solid;
   border-width: 10px;
-  border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+  border-image: linear-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
 }
 .box {
   width: 300px;
